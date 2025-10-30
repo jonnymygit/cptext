@@ -43,9 +43,9 @@ logging.basicConfig(
 
 bot = Client(
     "bot",
-    api_id= 22779671,
-    api_hash= "125d8d88b77309dc3b154cbbfc2dacb2",    
-    bot_token= "6847175705:AAHbkU8GFmzoxR9dCQTr6RuZ4NQsev5ufz0"
+    api_id= 26428270,
+    api_hash= "846acb0da9f79016485b5a5816b447d9",    
+    bot_token= "8233279337:AAG8SSn0kUz5F6RxpHGCyMWdoIZi9LGQYHw"
 )
 
 @bot.on_message(filters.command(["cp"]))
@@ -223,3 +223,4 @@ async def account_login(bot: Client, m: Message):
 
 bot.run()           
                     
+
